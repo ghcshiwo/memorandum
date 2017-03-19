@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的小小备忘录</title>
+	<link href="http://cdn.bootcss.com/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css">
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<div class="msg">
+		<span class="msg-content"></span>
+		<span class="confirmed">知道了</span>
+	</div>
+	<div class="container">
+		<h1>备忘录</h1>
+		<form class="add-task">
+			<input type="text" placeholder="e.g. 下午记得买菜" name="content">
+			<button>保存</button>
+		</form>
+		<div class="task-list">
+
+		</div>
+		<div class="task-detail-mask"></div>
+		<div class="task-detail">
+		</div>
+	</div>
+	<audio class="audio" src="alert.mp3"></audio>
+	<script src="http://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/store.js/1.1.0/store.js"></script>
+	<script src="http://cdn.bootcss.com/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
